@@ -79,6 +79,29 @@ Ejemplo:
 git add MyFolder/
 ```
 
+## **GIT LOG**
+Descripción: sirve para ver el historial de los cambios que se han realizado en el repositorio.
+- **Comando git log**
+```bash
+git log
+```
+
+- **Log una línea por commit**
+```bash	
+git log --oneline
+```
+
+- **Ver número limitado de commit por línea**
+```bash
+git log -3
+```
+
+- **Ver diagram para el log con diagrama de rama**
+```bash
+git log --graph --oneline
+```
+
+
 
 
 
