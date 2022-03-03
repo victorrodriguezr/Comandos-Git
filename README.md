@@ -1,4 +1,6 @@
 # Comandos-Git
+
+**Nota**: los simbolos mayor que **(>)** y menor que **(<)** son para colocar nuestro comando en la terminal.
 ## **Configurar git**
 - **Configurar el nombre de usuario y correo, ejemplo:**
 ```bash
@@ -34,13 +36,20 @@ git commit -m "Su mensaje"
 
 - **Subir el repositorio a un servidor remoto**
 ```bash
-git remote add origin <url>
+git remote add origin <url_repository_git>
 ```
 
 - **Enviar los datos al servidor remoto**
 ```bash
-git push -u origin master
+git push -u origin <nombre_de_su_rama>
 ```
+
+## Clonar un repositorio
+- **Clonar un repositorio**
+```bash
+git clone <url>
+```
+
 
 
 
