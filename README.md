@@ -101,6 +101,11 @@ git log -3
 git log --graph --oneline
 ```
 
+## GIT AMMEND
+- **Para modificar el mensaje del ultimo commit**
+```bash
+git commit --amend -m "Su mensaje"
+```
 
 
 
