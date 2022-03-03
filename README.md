@@ -1,4 +1,4 @@
-# Comandos-Git
+# Comandos básicos git
 
 **Nota**: los simbolos mayor que **(>)** y menor que **(<)** son para colocar nuestro comando en la terminal.
 ## **Configurar git**
@@ -47,12 +47,37 @@ git push -u origin <nombre_de_su_rama>
 ## Clonar un repositorio
 - **Clonar un repositorio**
 ```bash
-git clone <url>
+git clone <url_repository_git>
+```
+## Verificiar el estado del repositorio
+- **Verificar el estado del repositorio:**
+```bash
+git status
 ```
 
+## **GIT ADD**
+- **Agregar todos los archivos**
+```bash
+git add .
+```
 
+- **Agregar un archivo especifico**
+```bash
+git add <nombre_archivo>
+```
+Ejemplo: 
+```bash
+git add README.md
+```
 
-
+- **Agregar un folder**
+```bash
+git add <nombre_folder>
+```
+Ejemplo:
+```bash
+git add MyFolder/
+```
 
 
 
