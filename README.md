@@ -100,12 +100,50 @@ git log -3
 ```bash
 git log --graph --oneline
 ```
+## **GIT BRANCH**
+- **Crear una rama**
+```bash
+git branch <nombre_de_la_rama>
+```
+- **Listar las ramas del repositorio**
+```bash
+git branch
+```
+
+- **Cambiar de rama**
+```bash
+git checkout <nombre_de_la_rama>
+```
+
+-**Eliminar una rama especificada**
+**Nota**: Elimina la rama especificada. Esta operación es segura, ya que git evita que elimines la rama si tiene aún cambios que no se han fusionado.
+```bash
+git branch -d <nombre_de_la_rama>
+```
+
+- **Eliminar una rama especificada y forzar la eliminación**
+**Nota**: fuerza la eliminación de la rama especificada, incluso si tiene cambios que no se han fusionado.
+```bash
+git branch -D <nombre_de_la_rama>
+```
+
+- **Cambiar el nombre de la rama**
+```bash
+git branch -m <nombre_de_la_rama> <nombre_nuevo_de_la_rama>
+```
+
+- **Enumerar las ramas**
+```bash
+git branch -a
+```
 
 ## GIT AMMEND
 - **Para modificar el mensaje del ultimo commit**
 ```bash
 git commit --amend -m "Su mensaje"
 ```
+
+
 
 
 
