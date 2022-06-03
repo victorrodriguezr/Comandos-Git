@@ -151,7 +151,7 @@ git commit --amend -m "Su mensaje"
 
 ## Tabla de contenido
 -  [Unir ramas o unir cambios](./docs/UnirCambios.md)
-
+- [Quitar archivos del stage are](./docs/QuitarArchivoStageArea.md)
 
 
 
