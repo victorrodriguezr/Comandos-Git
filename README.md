@@ -15,11 +15,12 @@ git config --list
 ```
 
 ##  Comandos básicos para proyectos
-- **Inicializa un repositorio Git:**
+- **Inicializa un repositorio Git**:
+**Nota**: se debe inicializar el repositorio en la carpeta donde se encuentra los archivos del respoitoio.
 ```bash
  git init
 ```
-- **Agrega un archivo al repositorio:**
+- **Agrega un archivo al stagin area**:
 ```bash
 git add <nombre_archivo>
 ```
@@ -29,12 +30,12 @@ git add <nombre_archivo>
 git add .
 ```
 
-- **Agrega al repositorio**
+- **Confirmar cambios al repositorio**
 ```bash
 git commit -m "Su mensaje"
 ```
 
-- **Subir el repositorio a un servidor remoto**
+- **Asignar el repositorio a un servidor remoto**
 ```bash
 git remote add origin <url_repository_git>
 ```
@@ -42,6 +43,11 @@ git remote add origin <url_repository_git>
 - **Enviar los datos al servidor remoto**
 ```bash
 git push -u origin <nombre_de_su_rama>
+```
+
+Ejemplo:
+```bash
+git push -u origin master
 ```
 
 ## Clonar un repositorio
@@ -142,6 +148,10 @@ git branch -a
 ```bash
 git commit --amend -m "Su mensaje"
 ```
+
+## Tabla de contenido
+-  [Unir ramas o unir cambios](./docs/UnirCanbios.md)
+
 
 
 
