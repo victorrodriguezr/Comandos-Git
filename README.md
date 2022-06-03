@@ -150,7 +150,7 @@ git commit --amend -m "Su mensaje"
 ```
 
 ## Tabla de contenido
--  [Unir ramas o unir cambios](./docs/UnirCanbios.md)
+-  [Unir ramas o unir cambios](./docs/UnirCambios.md.md)
 
 
 
