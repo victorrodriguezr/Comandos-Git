@@ -19,6 +19,7 @@ Output:
 stash@{0}: On develop: Guardar cambios rama develop
 ```
 3. Recuperar cambios
+    
     3.1. Recuperar el estado de los archivos temporales y deja una copia en el `stash`
     ```bash
     git stash app <NOMBRE_DEL_STASH>
