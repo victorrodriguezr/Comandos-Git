@@ -150,9 +150,10 @@ git commit --amend -m "Su mensaje"
 ```
 
 ## Tabla de contenido
--  [Unir ramas o unir cambios](./docs/UnirCambios.md)
+- [Unir ramas o unir cambios](./docs/UnirCambios.md)
 - [Quitar archivos del stage area](./docs/QuitarArchivoStageArea.md)
-- [Guarda archivos temporales con git stash](./docs/StashGuardarCambiosTemporales.md)
+- 
+- [Guarda archivos temporales con git stage](./docs/StashGuardarCambiosTemporales.md)
 
 
 
