@@ -7,5 +7,5 @@ git checkout -- Controlador.java
 
 ## Descartar cambios en todos los archivos
 ```bash
-git reset HEAD --
+git reset --hard
 ```
