@@ -27,3 +27,5 @@ Push al otra cuenta:
 git push miOtraCuenta main
 ```
 
+**Nota**: A pesar de que ese repositorio esta conectado a dos repositorios remotos una vez se haga clone en una maquina local, solo va a detectar el repostior del cual fue clonado. 
+
