@@ -154,6 +154,7 @@ git commit --amend -m "Su mensaje"
 - [Quitar archivos del stage area](./docs/QuitarArchivoStageArea.md)
 - [Descartar cambios realizados en los archivos](./docs/DescartarCambios.md)
 - [Guarda archivos temporales con git stage](./docs/StashGuardarCambiosTemporales.md)
+- [Guarda archivos temporales con git stage](./docs/RepositoriosRemotos.md)
 
 
 
